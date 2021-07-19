@@ -261,6 +261,9 @@ nav {
     margin: 0 auto;
 }
 
+.about-me__img {
+    box-shadow: var(--bs);
+}
 
 @media (min-width: 600px) {
     .about-me {
@@ -280,16 +283,17 @@ nav {
     .section__subtitle--about {
         grid-column: 1 / -1;
         grid-row: 2;
-        position: relative; 
-        left: -1em; 
-        width: calc(100% + 4em); 
-        padding-left: 2em; 
-        padding-right: calc(200px + 4em); 
+        position: relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
     }
     
     .about-me__img {
         grid-area: img;
-        position: relative; 
+        position: relative;
+        z-index: 2;
     }
 }
 
