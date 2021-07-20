@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #16b8e0;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -159,7 +159,7 @@ nav {
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #3e04aa;
     color: white;
   }
 
@@ -209,7 +209,7 @@ nav {
 
 .my-services { 
     background-color: var(--clr-dark);
-    background-image: url(../images/mac.jpg); 
+    background-image: url(../images/code.jpg); 
     background-size: cover; 
 
     text-align:center; 
@@ -233,7 +233,7 @@ nav {
     opacity: .25; 
 }
 
-.services { 
+/* .services { 
     max-width: 4em; 
 
 }
@@ -241,9 +241,9 @@ nav {
 .service {
     max-width: 500px;
     margin: 0 auto;
-}
+} */
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
     .services {
         display: flex;
         max-width: 1000px;
@@ -253,7 +253,7 @@ nav {
     .service + .service {
         margin-left: 2em;
     }
-}
+} */
 
 
 .about-me {
